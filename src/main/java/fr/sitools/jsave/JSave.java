@@ -254,7 +254,7 @@ public class JSave {
 
     public static void main(String[] args) throws FileNotFoundException, IOException, Exception {
 
-        String savFilePath = new File(".").getCanonicalPath() + "\\data\\";
+        String savFilePath = new File(".").getCanonicalPath() + "\\src\\main\\resources\\";
         JSave sav = new JSave(new File(savFilePath + "cube8439_2.sav"));
         sav.read();
 
