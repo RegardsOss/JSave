@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-
  /*******************************************************************************
  * Copyright 2016 CNES - CENTRE NATIONAL d'ETUDES SPATIALES
  *
@@ -19,7 +16,6 @@
  * You should have received a copy of the GNU General Public License
  * along with JSave.  If not, see <http://www.gnu.org/licenses/>.
  ******************************************************************************/
->>>>>>> master
 package jsave;
 
 import org.apache.commons.math3.complex.Complex;
@@ -33,6 +29,9 @@ import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 
+/**
+ * Utility class.
+ */
 public class Utils {
 
     public static final HashMap STRUCT_DICT = new HashMap();

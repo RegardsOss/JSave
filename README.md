@@ -1,3 +1,21 @@
+JSave
+=====
+JSave is a library to read the <i>save</i> format from IDL.
+
+## Installing JSave
+
+### Getting the sources
+
+	$ git clone https://github.com/xxxx
+	
+### Building the sources
+
+Build the sources using maven
+
+	$ mvn package
+
+## Getting Started
+
 **HOW TO USE JSave**
 
 ```java
@@ -105,4 +123,30 @@ to get statistics (min/max) the matrix group by deep:
 ```java
 planeYZ.getStats();
 ```
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning.
+
+## Copyright & Credits
+
+All names are listed in alphabetical order
+
+### Development
+
+#### Copyright
+
+This Java code is under Copyright 2016 CNES
+
+#### Main Code
+
+Bastien Fiorito (AKKA), Jean-Christophe Malapert (CNES)
+
+#### Additional Codes
+
+[Stack Overflow](http://stackoverflow.com/questions/15992076/java-3d-array-storing-cube-retreiving-slice-of-cube) from [Aquillo](http://stackoverflow.com/users/1336310/aquillo) under the [creative commons license](https://creativecommons.org/licenses/by-sa/3.0/)
+
+## License
+
+This project is licensed under the GPLV3 License - see the [LICENSE](LICENSE) file for details
  

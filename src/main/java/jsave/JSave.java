@@ -27,6 +27,9 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Reads JSave format.
+ */
 public class JSave {
 
     private final RandomAccessFile raf;
@@ -260,17 +263,8 @@ public class JSave {
     public HashMap<String, Object> getVariables() {
         return variables;
     }
-
-    public void setVariables(HashMap<String, Object> variables) {
-        this.variables = variables;
-    }
-
     public HashMap<String, Object> getMetadata() {
         return metadata;
-    }
-
-    public void setMetadata(HashMap<String, Object> metadata) {
-        this.metadata = metadata;
     }
 
     /* MAIN */
