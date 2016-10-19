@@ -105,6 +105,21 @@ public class MatrixTest {
         assertEquals(expResult, result, 1e-10);
 
     }
+    
+    /**
+     * Test of getCubeValue method, of class Matrix.
+     */
+    @Test
+    public void testGetSubMatrix() {
+        System.out.println("getSubMatrix");
+        Matrix subMatrix = instance.getSubMatrix("0:2", "1:2", "0");
+        assertEquals(1, subMatrix.getCubeValue(0, 0, 0), 1e-10);
+        assertEquals(2, subMatrix.getCubeValue(1, 0, 0), 1e-10);
+        assertEquals(5, subMatrix.getCubeValue(2, 0, 0), 1e-10);
+        assertEquals(7, subMatrix.getCubeValue(0, 1, 0), 1e-10);
+        assertEquals(3, subMatrix.getCubeValue(1, 1, 0), 1e-10);
+        assertEquals(2, subMatrix.getCubeValue(2, 1, 0), 1e-10);
+    }    
 
     /**
      * Test of getStats method, of class Matrix.
